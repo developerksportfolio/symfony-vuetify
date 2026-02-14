@@ -1,0 +1,27 @@
+{
+    "name": "short-url-symfony",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production"
+    },
+    "dependencies": {
+        "@mdi/font": "^7.4",
+        "axios": "^1.7",
+        "chart.js": "^4.4",
+        "vue": "^3.5",
+        "vue-chartjs": "^5.3",
+        "vue-router": "^4.4",
+        "vuetify": "^3.7"
+    },
+    "devDependencies": {
+        "@symfony/webpack-encore": "^4.7",
+        "@vue/compiler-sfc": "^3.5",
+        "sass": "^1.77",
+        "sass-loader": "^14.2",
+        "vue-loader": "^17.4",
+        "webpack-notifier": "^1.15"
+    }
+}
